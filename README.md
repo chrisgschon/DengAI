@@ -1,7 +1,23 @@
 DengAI
 ==============================
 
-DrivenData competition submission repository
+Repository for my submission to the DrivenData competition 'DengAI'; predicting the spread of disease.
+
+## Challenge Description
+
+## Dependencies
+
+## Data Description
+
+## Exploratory Data Analysis
+
+## Feature Engineering
+
+## Model Benchmarking
+
+## Visualisations
+
+## Results 
 
 Project Organization
 ------------
