@@ -78,3 +78,4 @@ target/
 # Mac OS-specific storage files
 .DS_Store
 ~$project_timeline.xlsx
+data/processed/train_dataset_aligned.csv
