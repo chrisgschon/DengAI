@@ -48,3 +48,9 @@ svr_iq_helper = EstimatorSelectionHelper(svrmodels, svrparams)
 svr_iq_helper.fit(X_tr_iq_sel, Y_tr_iq, scoring='neg_mean_absolute_error', cv = 2)
 
 svr_iq_helper.score_summary(sort_by='min_score')
+
+
+importance = sj_model.feature_importances_
+importance = pd.DataFrame(importance, index=sj_feature_train.drop('total_cases', axis = 1).columns, 
+                          columns=["Importance"])
+importance.sort_values(by = 'Importance', ascending = False)
