@@ -1,0 +1,15 @@
+https://www.drivendata.org/competitions/44/dengai-predicting-disease-spread/page/80/
+
+https://stat.ethz.ch/R-manual/R-devel/library/MASS/html/glm.nb.html
+
+https://github.com/SusmeetJain/dengue_prediction/blob/master/3.Negative_Binomial_Regression.ipynb
+
+https://github.com/SusmeetJain/dengue_prediction
+
+http://www.statsmodels.org/dev/glm.html
+
+https://github.com/drivendata/benchmarks/blob/master/dengue-benchmark-statsmodels.ipynb
+
+https://machinelearningmastery.com/time-series-prediction-lstm-recurrent-neural-networks-python-keras/
+
+https://towardsdatascience.com/using-lstms-to-forecast-time-series-4ab688386b1f
