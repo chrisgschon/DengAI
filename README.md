@@ -11,15 +11,13 @@ From the DrivenData website description.
 
 Out of the box anaconda environment with Keras and Tensorflow.
 
-## Exploratory Data Analysis
+### Exploratory Data Analysis
 
-## Feature Engineering
+### Feature Engineering
 
-## Models
+### Models
 
-## Visualisations
-
-## Results 
+## Results + Submissions
 
 Project Organization
 ------------
