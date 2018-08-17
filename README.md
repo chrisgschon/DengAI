@@ -3,17 +3,19 @@ DengAI
 
 Repository for my submission to the DrivenData competition 'DengAI'; predicting the spread of disease.
 
-## Challenge Description
+### Challenge Description
 
-## Dependencies
+From the DrivenData website description.
 
-## Data Description
+### Dependencies
+
+Out of the box anaconda environment with Keras and Tensorflow.
 
 ## Exploratory Data Analysis
 
 ## Feature Engineering
 
-## Model Benchmarking
+## Models
 
 ## Visualisations
 
@@ -23,45 +25,18 @@ Project Organization
 ------------
 
     ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
-    ├── README.md          <- The top-level README for developers using this project.
+    ├── README.md          <- Description of the repo.
     ├── data
-    │   ├── processed      <- Processed datasets including feature engineering and joining with target.
+    |   ├── features       <- Feature sets constructed by feautre engineering notebook.
+    │   ├── processed      <- Processed datasets (slight tweaks to raw data)
     │   └── raw            <- The original, immutable data dump.
     │
-    ├── submissions        <- submissions, dated, for the competition
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
+    ├── submissions        <- submission csvs 
     │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
+    ├── notebooks          <- Jupyter notebooks. Contains all the core scripts for analysis.
     │
-    ├── notebooks          <- Jupyter notebooks.
-    │                         
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    |   ├── data           <- Scripts for handling and processing raw data
-    |    └── make_dataset.py
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.testrun.org
+    ├── reports          
+    │   └── figures        <- Library of key figures of the project
 
 
 --------
