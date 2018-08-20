@@ -28,7 +28,7 @@ Here are the key takeways and figures from this analysis:
 
 - There are 1455 total records, 936 from San Juan and 519 from Iquitos, relating to a year and 'weekofyear' set of measurements for each city.
 
-Training data view (first 10 rows and 15 columns..)
+Training data view (first 10 rows and 9 columns..)
 
 ![alt text](https://github.com/chrisgschon/DengAI/blob/master/reports/figures/train_data_view.png)
 
