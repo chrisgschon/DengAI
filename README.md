@@ -99,6 +99,23 @@ This section will show the most succesful models in terms of submission score so
 | LSTM NN | Keras      |   Lookback10           | n_hidden = 40, 2 layers (one LSTM one Dense) |   24.3486 |
 
 
+Highest performing model so far produces predictions shown below:
+
+![alt text](https://github.com/chrisgschon/DengAI/blob/master/reports/figures/feature_correlations.png)
+
+A typical workflow for building and submitting a model's predictions has involved (20/8/18):
+
+- Selecting (or building) a feature set using Feature_Engineering.ipynb.
+- If lookback features are desired, use Create_Lookback_Features.ipynb to pipe the chosen feature set into one that allows lookback for a chosen number of time steps
+- Exploring benchmark models in Model_Benchmarking.ipynb to see if there is some potential in the feature set.
+- Using Make_Submission_SKL or Keras_LSTM_Basic.ipynb to choose and fine tune a model architecture.
+
+**Futures:**
+- **Explore modelling mappings of total_cases (e.g. log(1 + total_cases))**
+- **Dive deeper into the potential of lookback features.. after creating the automated feature engineering pipeline**.
+- **Dive deeper into the neural network in Keras implementation, which has shown some early promise.**
+
+
 Project Organization
 ------------
 
