@@ -49,11 +49,8 @@ Training data view (first 10 rows and 15 columns..)
 
 ![alt text](https://github.com/chrisgschon/DengAI/blob/master/reports/figures/correlations_feature_cases_iq.png)
 
-- San Juan is associated with more extreme (larger) weather measurements than Iquitos, which could already go some way to describing the higher rate of Dengue disease seen in the city. For example, compare precipitation in San Juan is heavier more frequently:
 
-![alt text](https://github.com/chrisgschon/DengAI/blob/master/reports/figures/feature_cases_trends_combined.png)
-
-- Naturally, correlations between weather measurements are seen. This suggests that careful feature selection/engineering will be needed to avoid overfitting.
+- Naturally, correlations between weather measurements are seen. This suggests that careful feature selection/engineering is be needed to avoid overfitting.
 
 ![alt text](https://github.com/chrisgschon/DengAI/blob/master/reports/figures/feature_correlations.png)
 
@@ -86,12 +83,21 @@ A few strategies have been implemented for building feature sets from the raw da
 - Lookback features that allow a static record to use features from previous timesteps. Incorporating these allowed shallow models to access previous states of features. The feature set with a 'lookback' of 10 has achieved the best submission score so far (with a random forest estimator).
 
 
-**Futures:
-- **
+**Futures:**
+- **Time series forecasting features.**
+- **Create feature(s) that try to capture the 'seasons', combining the weather data in some way to find a 'golden' feature/features that has a strong correlation with the output.**
+- **Create an automated pipeline for creating combinations of features, maximising over cross validation score of a Random forest, for example.**
 
 ### Models
 
-## Results + Submissions
+This section will show the most succesful models in terms of submission score so far. The table below shows the package, features, model architecture and parameterisations used. 
+
+| Model        |  |    Package | |    Feature csv | | Parameters      | Submission Score  |
+| ------------- |:-------------:||:-------------:| |:-------------:| -----:|
+| RandoForestRegressor      | | SKLearn ||   Lookback10            || n_estimators = 1000 | | 23.2764   |
+| RandoForestRegressor      | | SKLearn ||  Lookback10               ||   n_estimators = 1000, max_features = 10, max_depth = 20 | | 23.3341 |
+| LSTM NN | Keras      ||   Lookback10           || n_hidden = 40, 2 layers (one LSTM one Dense) ||   24.3486 |
+
 
 Project Organization
 ------------
