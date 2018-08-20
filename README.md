@@ -92,11 +92,11 @@ A few strategies have been implemented for building feature sets from the raw da
 
 This section will show the most succesful models in terms of submission score so far. The table below shows the package, features, model architecture and parameterisations used. 
 
-| Model        |  |    Package | |    Feature csv | | Parameters      | Submission Score  |
-| ------------- |:-------------:||:-------------:| |:-------------:| -----:|
-| RandoForestRegressor      | | SKLearn ||   Lookback10            || n_estimators = 1000 | | 23.2764   |
-| RandoForestRegressor      | | SKLearn ||  Lookback10               ||   n_estimators = 1000, max_features = 10, max_depth = 20 | | 23.3341 |
-| LSTM NN | Keras      ||   Lookback10           || n_hidden = 40, 2 layers (one LSTM one Dense) ||   24.3486 |
+| Model        |    Package |    Feature csv | Parameters      | Submission Score  |
+| ------------- |:-------------:|:-------------:|:-------------:| -----:|
+| RandoForestRegressor       | SKLearn |   Lookback10            | n_estimators = 1000  | 23.2764   |
+| RandoForestRegressor       | SKLearn |  Lookback10             |   n_estimators = 1000, max_features = 10, max_depth = 20 | 23.3341 |
+| LSTM NN | Keras      |   Lookback10           | n_hidden = 40, 2 layers (one LSTM one Dense) |   24.3486 |
 
 
 Project Organization
