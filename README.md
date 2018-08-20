@@ -101,7 +101,9 @@ This section will show the most succesful models in terms of submission score so
 
 Highest performing model so far produces predictions shown below:
 
-![alt text](https://github.com/chrisgschon/DengAI/blob/master/reports/figures/feature_correlations.png)
+![alt text](https://github.com/chrisgschon/DengAI/blob/master/reports/figures/raw_RF_Model_Benchmark_SF.png)
+
+![alt text](https://github.com/chrisgschon/DengAI/blob/master/reports/figures/raw_RF_Model_Benchmark_IQ.png)
 
 A typical workflow for building and submitting a model's predictions has involved (20/8/18):
 
