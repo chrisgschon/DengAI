@@ -28,11 +28,11 @@ Here are the key takeways and figures from this analysis:
 
 - There are 1455 total records, 936 from San Juan and 519 from Iquitos, relating to a year and 'weekofyear' set of measurements for each city.
 
-Training data view (first 10 rows and 15 columns..)
+Training data view (first 10 rows and 9 columns..)
 
 ![alt text](https://github.com/chrisgschon/DengAI/blob/master/reports/figures/train_data_view.png)
 
-- The training data also contains the number of total cases of dengue disease recorded in that city. This is misisng for the test data. 
+- The training data also contains the number of total cases of dengue disease recorded in that city. This is missing for the test data. 
 
 - The number of total cases for each city shows heavy seasonality and 'bursty' nature.
 
@@ -45,7 +45,7 @@ Training data view (first 10 rows and 15 columns..)
 
 ![alt text](https://github.com/chrisgschon/DengAI/blob/master/reports/figures/total_cases_autocorrelation.png)
 
-- Although temporal seasonality appears to be the key driving factor of the number of cases in each city, there are some non-dismissable correlations between weather factors and case rates, particularly relating to heat,  and humidity. For example, in Iquitos we see the following correlations with the output:
+- Although temporal seasonality appears to be the key driving factor of the number of cases in each city, there are some non-dismissable correlations between weather factors and case rates, particularly relating to heat and humidity. For example, in Iquitos we see the following correlations with the output:
 
 ![alt text](https://github.com/chrisgschon/DengAI/blob/master/reports/figures/correlations_feature_cases_iq.png)
 
@@ -70,6 +70,7 @@ A few strategies have been implemented for building feature sets from the raw da
 
 - Polynomial fit for case counts by week of year. 
     - As seen below, we can fit 6 degree (SJ) and 2 degree (IQ) polynomials to quite accurately capture the average number of cases by week of year. 
+    
     **SJ**:
     
     ![alt text](https://github.com/chrisgschon/DengAI/blob/master/reports/figures/iq_weekly_poly_fit.png)
@@ -84,6 +85,7 @@ A few strategies have been implemented for building feature sets from the raw da
 
 
 **Futures:**
+- **Further explore predictive power of lookback features**
 - **Time series forecasting features.**
 - **Create feature(s) that try to capture the 'seasons', combining the weather data in some way to find a 'golden' feature/features that has a strong correlation with the output.**
 - **Create an automated pipeline for creating combinations of features, maximising over cross validation score of a Random forest, for example.**
