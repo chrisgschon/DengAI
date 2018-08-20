@@ -21,16 +21,15 @@ Out of the box anaconda environment with Keras and Tensorflow.
 
 ### Exploratory Data Analysis
 
-In depth exploratory data analysis can be found in [Exploratory_Data_Analysis.ipynb] (https://github.com/chrisgschon/DengAI/blob/master/notebooks/Exploratory_Data_Analysis.ipynb)
+In depth exploratory data analysis can be found in [Exploratory_Data_Analysis.ipynb] ( https://github.com/chrisgschon/DengAI/blob/master/notebooks/Exploratory_Data_Analysis.ipynb )
 Here are the key takeways and figures from this analysis:
 
 - Each record has 20 numerical weather/climate related measurements, 3 time related columns and an categorical for the city (sj for San Juan and iq for Iquitos). 
 
 - There are 1455 total records, 936 from San Juan and 519 from Iquitos, relating to a year and 'weekofyear' set of measurements for each city.
 
-
-
-
+Training data view (first 10 rows and 15 columns..)
+![alt text](https://github.com/chrisgschon/DengAI/blob/master/reports/figures/total_cases_time_series.png)
 
 ### Feature Engineering
 
