@@ -124,16 +124,16 @@ Project Organization
     ├── LICENSE
     ├── README.md          <- Description of the repo.
     ├── data
-    |   ├── features       <- Feature sets constructed by feautre engineering notebook.
+    |   ├── features       <- Feature sets constructed by feature engineering notebooks.
     │   ├── processed      <- Processed datasets (slight tweaks to raw data)
-    │   └── raw            <- The original, immutable data dump.
+    │   └── raw            <- The original raw data (leave as is).
     │
     ├── submissions        <- submission csvs 
     │
     ├── notebooks          <- Jupyter notebooks. Contains all the core scripts for analysis.
     │
     ├── reports          
-    │   └── figures        <- Library of key figures of the project
+    │   └── figures        <- Library of key figures produced
 
 
 --------
