@@ -85,6 +85,7 @@ A few strategies have been implemented for building feature sets from the raw da
 
 
 **Futures:**
+- **Further explore predictive power of lookback features**
 - **Time series forecasting features.**
 - **Create feature(s) that try to capture the 'seasons', combining the weather data in some way to find a 'golden' feature/features that has a strong correlation with the output.**
 - **Create an automated pipeline for creating combinations of features, maximising over cross validation score of a Random forest, for example.**
